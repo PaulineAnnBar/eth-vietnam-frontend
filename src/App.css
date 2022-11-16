@@ -1,4 +1,35 @@
-.App {
+@import url('https://rsms.me/inter/inter.css');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+html { font-family: 'Inter', sans-serif; }
+
+body {
+  background-color: black;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
   text-align: center;
 }
 
+.uniswap-text {
+  font-family: 'Lora';
+  width: 816px;
+  height: 164px;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 82px;
+  text-align: center;
+}
+
+.uniswap-yellow {
+  color: #F69F36;
+  font-style: italic;
+}
+
+.center-body-text {
+  max-width: 915px;
+}

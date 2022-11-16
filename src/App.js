@@ -1,10 +1,23 @@
+import { createTheme, ThemeProvider } from '@material-ui/core';
 import './App.css';
+import AppRoutes from "./routes";
+
+const theme = createTheme({
+    palette: {
+        primary: {
+            main: '#15897B',
+        },
+        secondary: {
+            main: '#9D9D9D'
+        }
+    },
+});
 
 function App() {
   return (
-    <div className="App">
-     <h1>ETH VIETNAM APP</h1>
-    </div>
+      <ThemeProvider theme={theme}>
+          <AppRoutes />
+      </ThemeProvider>
   );
 }
 
